@@ -60,7 +60,7 @@ const write = {
     umd: {
         format: 'umd',
         exports: 'default',
-        moduleName: 'snakle',
+        moduleName: 'Snakle',
         banner: attribution,
         sourceMap: true
     },

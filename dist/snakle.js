@@ -7,7 +7,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
     typeof define === 'function' && define.amd ? define(factory) :
-    (global.snakle = factory());
+    (global.Snakle = factory());
 }(this, (function () { 'use strict';
 
 var asyncGenerator = function () {
