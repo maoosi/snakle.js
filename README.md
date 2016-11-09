@@ -65,6 +65,8 @@ Snakle exposes the following methods, and corresponding events:
 * [reset](#reset)
 * [stop](#stop)
 * [destroy](#destroy)
+* [draw](#draw)
+* [resize](#resize)
 
 Note that all methods are **chainable**, and all events includes `on`, `off`, and `once`.
 
@@ -120,6 +122,22 @@ Used to _completely remove the snake_ from the selector. Restore the initial sta
 ```javascript
 snake.destroy()
 snake.on('destroy', () => { /* callback here */ })
+```
+
+### draw
+
+Emitted each time the snake is re-drawn into the viewport during animation.
+
+```javascript
+snake.on('draw', () => { /* callback here */ })
+```
+
+### resize
+
+Emitted each time the snake is re-drawn after a resize of the viewport.
+
+```javascript
+snake.on('resize', () => { /* callback here */ })
 ```
 
 ## Browser Support
