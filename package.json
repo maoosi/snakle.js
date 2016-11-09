@@ -1,0 +1,24 @@
+{
+    "name": "snakle.js",
+    "version": "1.0.0",
+    "description": "Snake loader animation around the viewport borders.",
+    "homepage": "https://github.com/maoosi/snakle.js",
+    "main": "src/snakle.js",
+    "jsnext:main": "src/snakle.js",
+    "author": "maoosi <hello@sylvainsimao.fr>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/maoosi/snakle.js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/maoosi/snakle.js/issues"
+    },
+    "keywords": [
+        "snake",
+        "loader"
+    ],
+    "dependencies": {
+        "knot.js": "^1.1.1"
+    }
+}
