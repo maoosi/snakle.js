@@ -1,6 +1,6 @@
 # Snakle.js
 
-ES6 library using Canvas - Snake loader animation around the viewport borders.
+Javascript library using Canvas - Snake loader animation around the viewport borders.
 
 > **Docs in progress / Testing in progress**
 
@@ -13,23 +13,16 @@ ES6 library using Canvas - Snake loader animation around the viewport borders.
 
 ## Usage
 
-Snakle was developed with a **modern JavaScript workflow** in mind. To use it, it's recommended you have a build system in place that can transpile ES6, and bundle modules.
-
-### ES6
-
-Simply import `snakle.js`, then instantiate it.
-
 ```javascript
-// import library
 import Snakle from 'snakle.js'
 
-// create a new instance
+// instantiate with options
 const snake = new Snakle('#selector', { /* options here */ })
 
-// initiate
+// initiate and draw the snake
 snake.init()
 
-// animate
+// play animation
 snake.play()
 ```
 
@@ -57,7 +50,7 @@ Option | Type | Default | Description
 
 ## API / Events
 
-Snakle exposes the following methods, and corresponding events:
+Snakle exposes the following methods, and events:
 
 * [init](#init)
 * [play](#play)
