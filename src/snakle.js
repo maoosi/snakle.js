@@ -6,7 +6,7 @@ export default class Snakle {
     // instance constructor
         this.options = {
             thickness: options.thickness || 22,
-            color: options.color || '#3498db',
+            color: options.color || 'red',
             length: options.length || 10,
             speed: options.speed || 15
         }
