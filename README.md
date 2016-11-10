@@ -22,8 +22,6 @@ npm i snakle.js --save
 
 ### jsDelivr CDN
 
-> Not published yet
-
 ```bash
 <script src="https://cdn.jsdelivr.net/snakle.js/1.0.0/snakle.js"></script>
 ```
