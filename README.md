@@ -159,6 +159,6 @@ Snakle is fully supported by **Evergreen Browsers** (Edge, Opera, Safari, Firefo
 
 ## License
 
-[MIT](https://github.com/maoosi/perstrok.js/blob/master/LICENSE.md) © 2016 Sylvain Simao
+[MIT](https://github.com/maoosi/snakle.js/blob/master/LICENSE.md) © 2016 Sylvain Simao
 
 [![Built With Love](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
