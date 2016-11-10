@@ -16,8 +16,6 @@ Try the [**Demo samples**](http://codepen.io/collection/DQKWJQ/).
 
 ### Using NPM
 
-> Not published yet
-
 ```bash
 npm i snakle.js --save
 ```
