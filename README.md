@@ -62,7 +62,7 @@ Option details are detailed below.
 Option | Type | Default | Description
 ---|---|---|---
 `thickness` | *integer* | `22` | Thickness of the snake body (the snake body is made of multiple squares, where thickness represents the width and height of each square).
-`color` | *string or array* | `red` | Color of the snake body (RGB or hexadecimal). Can be a single color `#3498db`, or a two colors gradient by using a array[2] `['red', 'blue']`.
+`color` | *string or array* | `red` | Color of the snake body (RGB or hexadecimal). Can be a single color `#3498db`, or a two colors gradient by using a array[2] `['#0000ff', '#ffffff']`.
 `length` | *integer* | `10` | Length of the snake body or tail length (also represents the number of squares that the body is made of).
 `speed` | *integer* | `15` | Speed of the snake animation (FPS).
 
