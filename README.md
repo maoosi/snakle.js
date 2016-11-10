@@ -4,19 +4,37 @@ Javascript library using Canvas - Snake loader animation around the viewport bor
 
 Try the [**Demo samples**](http://codepen.io/collection/DQKWJQ/).
 
-> **Docs in progress / Testing in progress**
-
 ## Getting Started
 
-1. [Usage](#usage)
-2. [Options](#options)
-3. [API / Events](#api--events)
-4. [Browser Support](#browser-support)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Options](#options)
+4. [API / Events](#api--events)
+5. [Browser Support](#browser-support)
+
+## Installation
+
+### Using NPM
+
+> Not published yet
+
+```bash
+npm i snakle.js --save
+```
+
+### jsDelivr CDN
+
+> Not published yet
+
+```bash
+<script src="https://cdn.jsdelivr.net/snakle.js/1.0.0/snakle.js"></script>
+```
 
 ## Usage
 
 ```javascript
-import Snakle from 'snakle.js'
+// ES6 module import
+import Snakle from 'snakle.js' // not required if using a CDN or directly include
 
 // instantiate with options
 const snake = new Snakle('#selector', { /* options here */ })
