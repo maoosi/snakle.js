@@ -2,6 +2,8 @@
 
 Javascript library using Canvas - Snake loader animation around the viewport borders.
 
+Try the [**Demo samples**](http://codepen.io/collection/DQKWJQ/).
+
 > **Docs in progress / Testing in progress**
 
 ## Getting Started
